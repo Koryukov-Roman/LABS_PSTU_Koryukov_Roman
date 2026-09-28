@@ -8,5 +8,12 @@
 
 ---
 
-| № | Наименование | Статус |
-| :---: | :--- | :---: |
+<table>
+  <thead>
+    <tr>
+      <th align="center">№</th>
+      <th align="left">Наименование</th>
+      <th align="center">Статус</th>
+    </tr>
+  </thead>
+</table>
