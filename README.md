@@ -16,4 +16,11 @@
       <th align="center">Статус</th>
     </tr>
   </thead>
+  <tbody>
+    <tr>
+      <td align="center">-</td>
+      <td align="left">-</td>
+      <td align="center">-</td>
+    </tr>
+  </tbody>
 </table>
