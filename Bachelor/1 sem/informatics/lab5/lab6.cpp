@@ -3,6 +3,7 @@
 #include <clocale>
 #include <cwctype>
 #include <cwchar>
+#include <windows.h>
 
 using namespace std;
 
@@ -36,9 +37,9 @@ bool isPalindrom(const char* word) {
 }
 
 int main() {
-    if (setlocale(LC_ALL, "Russian") == NULL) {
-        return 1;
-    }
+    SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
+    setlocale(LC_ALL, ".UTF8");
 
     char text[256];
 
